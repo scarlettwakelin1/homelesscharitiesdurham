@@ -7,3 +7,9 @@
 .nav {
   background-color: lightblue;
 }
+
+@media all and (min-width: 992px)
+    > .item.next
+    { 
+      transform: translate3d(25%, 0, 0);  
+    }
