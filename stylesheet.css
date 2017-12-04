@@ -13,3 +13,7 @@
     { 
       transform: translate3d(25%, 0, 0);  
     }
+
+    .topnav .icon {
+    display: none;
+}
