@@ -48,3 +48,8 @@
     text-align: left;
   }
 }
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
