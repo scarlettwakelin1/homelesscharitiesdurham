@@ -40,3 +40,13 @@ function myFunction() {
         x.className = "topnav";
     }
 } 
+
+
+/* carousel responsive size */
+
+.carouselExampleIndicators {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
