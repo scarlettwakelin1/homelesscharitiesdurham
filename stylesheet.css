@@ -51,12 +51,6 @@ function myFunction() {
     background-size: cover;
 }
 
-.maintext {
-    width: 100%;
-    height: 600px;
-    background-position: center;
-    background-size: cover;
-}
 
 /* xs < 768 */
 @media screen and (max-width: 767px) {
