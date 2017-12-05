@@ -18,7 +18,7 @@
     
 
     <!-- Your file css -->
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="stylesheet.css"/>
 
   
 
@@ -28,6 +28,7 @@
   </head>
 
   <body>
+
      <div class="media">
   <img src="durham-header.jpg" class="mx-auto d-block img-responsive" width="1000%" height="500%" style="width:100%;">
   </div>
@@ -77,26 +78,33 @@
    <a href="Movingondurham.html">Moving on</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
- <link rel="stylesheet" href="stylesheet.css" />
+ 
 
       <!-- opening description -->
-    <div class="container">
-    <h3>
-    Want to get involved with local charities but don’t know how? 
-    <br>
-    <small class="text-muted">This website is your online index to finding Durham homeless and refuge charities</small>
-    </h3>
-  </div>
+
+      <br>
 
 
+    <div class="container-fluid">
+      <div class="mx-auto d-block text-responsive">
 
+        <h3 class="text-center">Want to get involved with local charities but don’t know how? </h3>
+    
+         <br>
+         <h4 class="text-muted text-center">This website is your online index to finding homeless and refuge charities in Durham </h4>
+  
+      </div>
+    </div>
+  
+
+
+<br>
     <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide span12" data-ride="carousel">
             <div class="row">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
                 </ol>
             </div>
             <div class="row">
@@ -115,8 +123,14 @@
 
 
 
-
-
+<!-- responsive text javascript --> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+          $("body").fitText();
+  });
+</script>
 
 
     
@@ -143,6 +157,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
 </body>
 
 
