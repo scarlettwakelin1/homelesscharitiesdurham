@@ -50,3 +50,9 @@ function myFunction() {
     background-position: center;
     background-size: cover;
 }
+.headercss {
+    width: 100%;
+    height: 320px;
+    background-color: #000000;
+    position: sticky;
+}
